@@ -1,3 +1,18 @@
-theme: jekyll-theme-minimal
-title: 我的个人网站
-description: 这是一个基于 Jekyll 的静态博客
+title: 我的博客
+description: 用 Jekyll 和 GitHub Pages 搭建的博客
+url: https://你的用户名.github.io
+theme: minima
+permalink: /:year/:month/:day/:title/
+timezone: Asia/Shanghai
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+author:
+  name: 你的名字
+  email: your-email@example.com
+
+minima:
+  social_links:
+    github: 你的用户名
